@@ -79,7 +79,7 @@ body {
 }
 
 .box:hover{
-    background-color: var(--plum);
+    border: 1px solid var(--plum);
 }
 
 .newGame {
@@ -107,6 +107,10 @@ body {
 
 .win {
     background-color: green;
+}
+
+.tie {
+    background-color: yellowgreen;
 }
 
 
