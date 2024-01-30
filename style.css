@@ -104,3 +104,80 @@ body {
     background-color: var(--richBlack);
     color: var(--blue);
 }
+
+
+@media (max-width: 622px) {
+    h1 {
+        font-size: 3.5rem;
+        padding: 2vmin;
+    }
+
+    .box {
+        font-size: 5rem;
+        font-weight: 500;
+    }
+
+    .newGame {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 510px){
+    .container {
+        height: 60vh;
+    }
+
+    .newGame{
+        height: 7vmin;
+    }
+}
+
+@media (max-width: 428px){
+    h1 {
+        font-size: 3rem;
+    }
+
+    .container{
+        height: 70vh;
+    }
+
+    .game {
+        height: 70vmin;
+        width: 70vmin;
+    }
+
+    .box {
+        height: 22vmin;
+        width: 22vmin;
+    }
+
+    .newGame{
+        height: 8vmin;
+    }
+}
+
+@media (max-width: 367px){
+    h1 {
+        font-size: 2.5rem;
+        padding-top: 5vmin;
+        padding-bottom: 5vmin;
+    }
+
+    .box{
+        font-size: 4.25rem;
+    }
+
+    .newGame{
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-height: 576px){
+    h1 {
+        font-size: 2.5rem;
+        padding: 1vmin;
+    }
+    .newGame{
+        height: 8vmin;
+    }
+}
