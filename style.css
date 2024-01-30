@@ -105,6 +105,10 @@ body {
     color: var(--blue);
 }
 
+.win {
+    background-color: green;
+}
+
 
 @media (max-width: 622px) {
     h1 {

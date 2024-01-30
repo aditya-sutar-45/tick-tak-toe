@@ -45,6 +45,7 @@ newGameBtn.addEventListener('click', ()=>{
     boxes.forEach(box => {
         box.innerText = '';
         box.disabled = false;
+        box.classList.remove('win');
     });
 });
 
@@ -63,6 +64,10 @@ function CheckWin(){
                 for (let box of boxes){
                     box.disabled = true;
                 }
+
+                boxes[pattern[0]].classList.add('win');
+                boxes[pattern[1]].classList.add('win');
+                boxes[pattern[2]].classList.add('win');
             }
         }
     }
