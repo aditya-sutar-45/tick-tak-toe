@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;500;600;700&display=swap');
+
+:root {
+    --richBlack: #011c27;
+    --blue: #3993DD;
+    --plum: #EB9FEF;
+    --rose: #AF3B6E;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sometype Mono', monospace;
+}
+
+*::selection{
+    background-color: var(--plum);
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 1.2vh;
+    padding: 3vmin;
+    border: 2px solid var(--richBlack);
+    color: var(--richBlack);
+    margin-left: 2vmin;
+    margin-right: 2vmin;
+    margin-top: 1.2vmin;
+    border-radius: 10px;
+}
+
+p{
+    text-align: center;
+}
+
+span{
+    padding: 1vmin;
+}
+
+body {
+    background-color: var(--blue);
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2vmin;
+    background-color: var(--richBlack);
+    padding: 2.5vmin;
+    border-radius: 10px;
+    border: 2px solid white
+}
+
+.box {
+    cursor: pointer;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 10px;
+    background-color: var(--rose);
+    border: none;
+    font-size: 8rem;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+.box:hover{
+    background-color: var(--plum);
+}
+
+.newGame {
+    margin: 0 auto;
+    display: block;
+
+    cursor: pointer;
+    width: 50vmin;
+    height: 5vmin;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+
+    background-color: var(--blue);
+    color: var(--richBlack);
+    border-radius: 10px;
+    border: 2px solid var(--richBlack);
+
+}
+
+.newGame:hover{
+    background-color: var(--richBlack);
+    color: var(--blue);
+}
